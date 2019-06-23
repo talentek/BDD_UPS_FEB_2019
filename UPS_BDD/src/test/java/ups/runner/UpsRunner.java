@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features = { "FeatureFiles" }, glue = { "ups.stepdef", "ups.utilities" }, plugin = { "pretty",
-		"html:target/cucumber-htmlreport", "json:cucumber-report.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true)
+		"html:target/cucumber-htmlreport", "json:target/cucumber-report.json","com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html" }, monochrome = true)
 
 @Test
 public class UpsRunner extends AbstractTestNGCucumberTests {
