@@ -15,7 +15,7 @@ Feature: Ups Login Feature
       
  Scenario: Login with correct user id and password
     Given I navigated to ups login page
-    When I entered correct "userid" and "password"
+    When I entered correct "user" and "pass"
     And I click on login
     Then I should be able to login
       
