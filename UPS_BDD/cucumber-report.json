@@ -1,0 +1,385 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2772082581,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with wrong user id and password",
+        "description": "",
+        "id": "ups-login-feature;login-with-wrong-user-id-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 653399820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4006963900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigated to ups login page",
+            "match": {
+              "location": "UpsLoginStepDef.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238138455,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered wrong \"user1\" and \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 17
+                },
+                {
+                  "val": "password1",
+                  "offset": 29
+                }
+              ],
+              "location": "UpsLoginStepDef.i_entered_wrong_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2286007816,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login",
+            "match": {
+              "location": "UpsLoginStepDef.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36519321,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "UpsLoginStepDef.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2133825621,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with wrong user id and password",
+        "description": "",
+        "id": "ups-login-feature;login-with-wrong-user-id-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 790257961,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3270758765,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigated to ups login page",
+            "match": {
+              "location": "UpsLoginStepDef.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259167135,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered wrong \"user2\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 17
+                },
+                {
+                  "val": "password2",
+                  "offset": 29
+                }
+              ],
+              "location": "UpsLoginStepDef.i_entered_wrong_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1197186017,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login",
+            "match": {
+              "location": "UpsLoginStepDef.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 646598955,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "UpsLoginStepDef.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2178313497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with wrong user id and password",
+        "description": "",
+        "id": "ups-login-feature;login-with-wrong-user-id-and-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 653247445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3268128503,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigated to ups login page",
+            "match": {
+              "location": "UpsLoginStepDef.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237404997,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered wrong \"juel\" and \"helloworld\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "juel",
+                  "offset": 17
+                },
+                {
+                  "val": "helloworld",
+                  "offset": 28
+                }
+              ],
+              "location": "UpsLoginStepDef.i_entered_wrong_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2250798296,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on login",
+            "match": {
+              "location": "UpsLoginStepDef.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33542857,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "UpsLoginStepDef.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2147087466,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login with correct user id and password",
+        "description": "",
+        "id": "ups-login-feature;login-with-correct-user-id-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 645306522,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3923626060,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I navigated to ups login page",
+            "match": {
+              "location": "UpsLoginStepDef.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223184288,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I entered correct \"user\" and \"pass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 19
+                },
+                {
+                  "val": "pass",
+                  "offset": 30
+                }
+              ],
+              "location": "UpsLoginStepDef.i_entered_correct_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1227618588,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on login",
+            "match": {
+              "location": "UpsLoginStepDef.i_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 741231175,
+              "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertEquals(Assert.java:123)\r\n\tat org.testng.Assert.assertEquals(Assert.java:286)\r\n\tat org.testng.Assert.assertEquals(Assert.java:296)\r\n\tat ups.stepdef.UpsLoginStepDef.i_should_be_able_to_login(UpsLoginStepDef.java:44)\r\n\tat ✽.Then I should be able to login(logintest.feature:20)\r\n",
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "I should be able to login",
+            "match": {
+              "location": "UpsLoginStepDef.i_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ups Login Feature",
+    "description": "This login feature is for login functionality in UPS website",
+    "id": "ups-login-feature",
+    "keyword": "Feature",
+    "uri": "logintest.feature"
+  }
+]
