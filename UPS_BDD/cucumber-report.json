@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2772082581,
+              "duration": 2629446390,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 653399820,
+              "duration": 669255612,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4006963900,
+              "duration": 3549560695,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 238138455,
+              "duration": 279373538,
               "status": "passed"
             },
             "line": 6,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 2286007816,
+              "duration": 2578695701,
               "status": "passed"
             },
             "line": 7,
@@ -84,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 36519321,
+              "duration": 36623142,
               "status": "passed"
             },
             "line": 8,
@@ -100,7 +100,7 @@
         "before": [
           {
             "result": {
-              "duration": 2133825621,
+              "duration": 2220938123,
               "status": "passed"
             },
             "match": {
@@ -115,7 +115,7 @@
         "after": [
           {
             "result": {
-              "duration": 790257961,
+              "duration": 666906810,
               "status": "passed"
             },
             "match": {
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3270758765,
+              "duration": 3346756898,
               "status": "passed"
             },
             "line": 5,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 259167135,
+              "duration": 543803566,
               "status": "passed"
             },
             "line": 6,
@@ -166,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 1197186017,
+              "duration": 2730752363,
               "status": "passed"
             },
             "line": 7,
@@ -178,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 646598955,
+              "duration": 35925213,
               "status": "passed"
             },
             "line": 8,
@@ -194,7 +194,7 @@
         "before": [
           {
             "result": {
-              "duration": 2178313497,
+              "duration": 2211076316,
               "status": "passed"
             },
             "match": {
@@ -209,7 +209,7 @@
         "after": [
           {
             "result": {
-              "duration": 653247445,
+              "duration": 655412684,
               "status": "passed"
             },
             "match": {
@@ -222,7 +222,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3268128503,
+              "duration": 3457148586,
               "status": "passed"
             },
             "line": 5,
@@ -234,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 237404997,
+              "duration": 234841053,
               "status": "passed"
             },
             "line": 6,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 2250798296,
+              "duration": 2738084570,
               "status": "passed"
             },
             "line": 7,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 33542857,
+              "duration": 35101355,
               "status": "passed"
             },
             "line": 8,
@@ -288,7 +288,7 @@
         "before": [
           {
             "result": {
-              "duration": 2147087466,
+              "duration": 2160702620,
               "status": "passed"
             },
             "match": {
@@ -303,7 +303,7 @@
         "after": [
           {
             "result": {
-              "duration": 645306522,
+              "duration": 653877476,
               "status": "passed"
             },
             "match": {
@@ -316,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3923626060,
+              "duration": 3253522117,
               "status": "passed"
             },
             "line": 17,
@@ -328,7 +328,7 @@
           },
           {
             "result": {
-              "duration": 223184288,
+              "duration": 210392992,
               "status": "passed"
             },
             "line": 18,
@@ -350,7 +350,7 @@
           },
           {
             "result": {
-              "duration": 1227618588,
+              "duration": 2427627115,
               "status": "passed"
             },
             "line": 19,
@@ -362,7 +362,7 @@
           },
           {
             "result": {
-              "duration": 741231175,
+              "duration": 59730611,
               "error_message": "java.lang.AssertionError: expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:494)\r\n\tat org.testng.Assert.assertEquals(Assert.java:123)\r\n\tat org.testng.Assert.assertEquals(Assert.java:286)\r\n\tat org.testng.Assert.assertEquals(Assert.java:296)\r\n\tat ups.stepdef.UpsLoginStepDef.i_should_be_able_to_login(UpsLoginStepDef.java:44)\r\n\tat ✽.Then I should be able to login(logintest.feature:20)\r\n",
               "status": "failed"
             },
